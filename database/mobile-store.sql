@@ -12,6 +12,12 @@ CREATE TABLE `user_info` (
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4;
 
 
+-- insert data into user_info table :
+
+INSERT INTO `user_info` (`username`, `firstname`, `lastname`, `gender`, `email`,  `password`) VALUES
+('admin', 'Admin', 'Admin', 'Male', 'admin@gmail.com', 'admin');
+
+
 -- cart table :
 
 CREATE TABLE `cart` (
