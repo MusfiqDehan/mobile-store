@@ -64,6 +64,7 @@ body {
 .navbar-right a {
     margin-left: 30px;
     font-size: 20px;
+    color: var(--black);
 }
 
 .navbar-right a:hover {
